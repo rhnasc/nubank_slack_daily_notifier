@@ -2,14 +2,68 @@
 
 
 [[projects]]
+  name = "github.com/ashwanthkumar/slack-go-webhook"
+  packages = ["."]
+  revision = "58b9a44feb242f0ced1a85304b1b6af57b770234"
+  version = "v0.2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/moul/http2curl"
+  packages = ["."]
+  revision = "9ac6cf4d929b2fa8fd2d2e6dec5bb0feb4f4911d"
+
+[[projects]]
+  name = "github.com/parnurzeal/gorequest"
+  packages = ["."]
+  revision = "a578a48e8d6ca8b01a3b18314c43c6716bb5f5a3"
+  version = "v0.2.15"
+
+[[projects]]
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
+  version = "v0.8.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/rhnasc/nubank_api_exporter"
   packages = ["nubank"]
   revision = "82fd6d351804c53d8fbb68cf4eb07a8f0a1d67bc"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = [
+    "idna",
+    "publicsuffix"
+  ]
+  revision = "afe8f62b1d6bbd81f31868121a50b06d8188e1f9"
+
+[[projects]]
+  name = "golang.org/x/text"
+  packages = [
+    "collate",
+    "collate/build",
+    "internal/colltab",
+    "internal/gen",
+    "internal/tag",
+    "internal/triegen",
+    "internal/ucd",
+    "language",
+    "secure/bidirule",
+    "transform",
+    "unicode/bidi",
+    "unicode/cldr",
+    "unicode/norm",
+    "unicode/rangetable"
+  ]
+  revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
+  version = "v0.3.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "3c201f0863c3ecafe6f93d720fc119343e6e064a19469ccfaa4cb98b1687277e"
+  inputs-digest = "3bee25c7b2b788010a0e3058bc2db43201bab82e64dc6479c5c230efd852cb58"
   solver-name = "gps-cdcl"
   solver-version = 1
